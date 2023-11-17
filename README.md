@@ -17,4 +17,4 @@ Review and Information of Android Device Xiaomi Redmi 12R(sky)
 | Display | 1080P IPS LCD (6.79" FHD+ Display \| Refresh rate: 90Hz Touch sampling Rate: 240Hz Peak Brightness: 550 nits) |
 | Rear Camera | 50 MP, f/1.8, (wide), PDAF<br>2 MP, f/2.4, (depth) |
 | Front Camera | 8 MP, f/2.0, (wide), 1.12µm |
-| Release Date | 2023, August (China) |
+| Release Date | August 2023 (China) |
