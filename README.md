@@ -2,6 +2,44 @@
 
 Xiaomi Redmi 12R(sky)的评价测试和相关信息
 
+## 总结： 如果使用MIUI以外的系统会遇到兼容性问题，如果和我一样不喜欢MIUI请谨慎购买
+
+## 兼容测试结果:
+
+### 解锁Bootloader: 
+
+可以解锁，无需答题，但需要等待七天时间。 当前时间点(2023年12月)还未受到Xiaomi收紧解锁BL政策的影响，七天后可以正常解锁Bootloader锁。
+
+### MIUI中国版/国际版：
+
+4G/5G正常，WiFi Calling正常，摄像头API正常，IMS正常
+
+### AOSP发行版官方提供支持的：
+
+#### crDroid：
+
+可以正常刷入，大部分功能正常。
+
+4G正常，5G完全无法使用，WiFi Calling可以使用但是不稳定。
+
+摄像头API似乎有问题，微信QQ支付宝淘宝等中国App无法调用，具体症状为打开摄像头以后只出现第一帧影像，无法对焦和扫码。
+
+经过测试发现Telegram/Discord/Twitter等国际App可以完美调用摄像头API，进行拍照扫码。
+
+### GSI:
+
+#### 由TrebleDroid Builders团队维护的AOSP GSI镜像:
+
+已知问题: 通话质量极差(很可能是2G-Only), 无法接收到短信(但是可以发送)，即使使用GSI官方的IMS也没用，导致无法
+
+#### 由Nazim维护的crDroid GSI
+
+已知问题: 无法接收到短信(但是可以发送)
+
+#### 由MisterZtr维护的PixelOS GSI
+
+已知问题: 无法接收到短信(但是可以发送)
+
 ## 配置表
 
 | 项目 | 配置 |
